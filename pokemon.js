@@ -39,7 +39,7 @@ function fetchRandomPokemon() {
       });
   }
   
-  // Function to update scores based on the fight outcome
+  // Function to update scores 
   function updateScores() {
     const player1Experience = parseInt(document.querySelector("#player1 .experience").textContent.split(":")[1]);
     const player2Experience = parseInt(document.querySelector("#player2 .experience").textContent.split(":")[1]);
